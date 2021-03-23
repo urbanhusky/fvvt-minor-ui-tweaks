@@ -1,0 +1,17 @@
+// let form-buttons match regular button design
+body form button,
+body .dialog .dialog-buttons button {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+// hide icons on buttons with text
+body button > i {
+  &.fas,
+  &.far,
+  &.fal,
+  &.fad,
+  &.fab,
+  &.fa {
+    display: none;
+  }
+}
